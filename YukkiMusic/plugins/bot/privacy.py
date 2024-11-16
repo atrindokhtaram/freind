@@ -17,7 +17,7 @@ TEXT = f"""
 @app.on_message(filters.command("privacy" ,prefixes=["", "/"]))
 async def privacy(client, message: Message):
     keyboard = InlineKeyboardMarkup(
-        [[InlineKeyboardButton("View Privacy Policy", url="https://t.me/pykaliermusicgroup")]]
+        [[InlineKeyboardButton("View Privacy Policy", url="https://t.me/MUSICPLAYER_IRANIAN")]]
     )
     await message.reply_text(
         TEXT,
