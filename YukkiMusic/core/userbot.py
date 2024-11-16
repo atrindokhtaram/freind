@@ -14,35 +14,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            "PyKalier1",
+            "ATRmusuic1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             in_memory=True,
             session_string=str(config.STRING1),
         )
         self.two = Client(
-            "PyKalier2",
+            "ATRmusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             in_memory=True,
             session_string=str(config.STRING2),
         )
         self.three = Client(
-            "PyKalier3",
+            "ATRmusic3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             in_memory=True,
             session_string=str(config.STRING3),
         )
         self.four = Client(
-            "PyKalier4",
+            "ATRmusic4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             in_memory=True,
         )
         self.five = Client(
-            "PyKalier5",
+            "ATRmusic5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             in_memory=True,
@@ -54,10 +54,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("pykaliermusicgroup")
-                await self.one.join_chat("pykaliermusicgroup")
-                await self.one.join_chat("pykaliermusicgroup")
-                await self.one.join_chat("pykaliermusicgroup")
+                await self.one.join_chat("MUSICPLAYER_IRANIAN")
+                await self.one.join_chat("MUSICPLAYER_IRANIAN")
+                await self.one.join_chat("MUSICPLAYER_IRANIAN")
+                await self.one.join_chat("MUSICPLAYER_IRANIAN")
             except:
                 pass
             assistants.append(1)
@@ -81,10 +81,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("pykaliermusicgroup")
-                await self.two.join_chat("pykaliermusicgroup")
-                await self.two.join_chat("pykaliermusicgroup")
-                await self.two.join_chat("pykaliermusicgroup")
+                await self.two.join_chat("MUSICPLAYER_IRANIAN")
+                await self.two.join_chat("MUSICPLAYER_IRANIAN")
+                await self.two.join_chat("MUSICPLAYER_IRANIAN")
+                await self.two.join_chat("MUSICPLAYER_IRANIAN")
             except:
                 pass
             assistants.append(2)
@@ -108,10 +108,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("pykaliermusicgroup")
-                await self.three.join_chat("pykaliermusicgroup")
-                await self.three.join_chat("pykaliermusicgroup")
-                await self.three.join_chat("pykaliermusicgroup")
+                await self.three.join_chat("MUSICPLAYER_IRANIAN")
+                await self.three.join_chat("MUSICPLAYER_IRANIAN")
+                await self.three.join_chat("MUSICPLAYER_IRANIAN")
+                await self.three.join_chat("MUSICPLAYER_IRANIAN")
             except:
                 pass
             assistants.append(3)
@@ -135,10 +135,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("pykaliermusicgroup")
-                await self.four.join_chat("pykaliermusicgroup")
-                await self.four.join_chat("pykaliermusicgroup")
-                await self.four.join_chat("pykaliermusicgroup")
+                await self.four.join_chat("MUSICPLAYER_IRANIAN")
+                await self.four.join_chat("MUSICPLAYER_IRANIAN")
+                await self.four.join_chat("MUSICPLAYER_IRANIAN")
+                await self.four.join_chat("MUSICPLAYER_IRANIAN")
             except:
                 pass
             assistants.append(4)
@@ -162,10 +162,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("pykaliermusicgroup")
-                await self.five.join_chat("pykaliermusicgroup")
-                await self.five.join_chat("pykaliermusicgroup")
-                await self.five.join_chat("pykaliermusicgroup")
+                await self.five.join_chat("MUSICPLAYER_IRANIAN")
+                await self.five.join_chat("MUSICPLAYER_IRANIAN")
+                await self.five.join_chat("MUSICPLAYER_IRANIAN")
+                await self.five.join_chat("MUSICPLAYER_IRANIAN")
             except:
                 pass
             assistants.append(5)
