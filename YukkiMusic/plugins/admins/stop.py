@@ -20,7 +20,7 @@ from YukkiMusic.utils.database import (
 
 
 @app.on_message(
-    filters.command(["stop", "end", "cstop", "cend","ختم","کانال ختم"]  ,
+    filters.command(["stop", "end", "cstop", "cend","اتمام","کانال اتمام"]  ,
         prefixes=["", "/"]) & filters.group & ~BANNED_USERS
 )
 async def stop_music(cli, message: Message):
