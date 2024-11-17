@@ -71,7 +71,7 @@ async def varsFunc(client, message):
 <u>متغیرهای مخزن سفارشی:</u>
 مخزن_بالا : {up_r}  
 شاخه_بالا : {up_b}  
-مخزن_گیت : {git}  
+مخزن_گیت : rainbow 
 توکن : {token}  
 
 <u>متغیرهای ربات:</u>
