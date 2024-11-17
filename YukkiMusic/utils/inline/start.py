@@ -19,14 +19,14 @@ def start_pannel(_):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"http://t.me/MUSICRAINBOW2_BOT/MAHVARE"),
                 InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"),
             ]
         )
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/MUSICRAINBOW2_BOT/MAHVARE")]
             )
         if SUPPORT_GROUP:
             buttons.append(
@@ -42,14 +42,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
-                InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}"),
+                InlineKeyboardButton(text=_["S_B_4"], url=f"http://t.me/MUSICRAINBOW2_BOT/MAHVARE"),
                 InlineKeyboardButton(text=_["S_B_3"], url=f"{SUPPORT_GROUP}"),
             ]
         )
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
-                [InlineKeyboardButton(text=_["S_B_4"], url=f"{SUPPORT_CHANNEL}")]
+                [InlineKeyboardButton(text=_["S_B_4"], url=f"http://t.me/MUSICRAINBOW2_BOT/MAHVARE")]
             )
         if SUPPORT_GROUP:
             buttons.append(
