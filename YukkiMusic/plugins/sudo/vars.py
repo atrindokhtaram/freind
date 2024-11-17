@@ -69,7 +69,7 @@ async def varsFunc(client, message):
 شناسه_مالک : {owner_id}  
 
 <u>متغیرهای مخزن سفارشی:</u>
-مخزن_بالا : {up_r}  
+مخزن_بالا : rainbow  
 شاخه_بالا : {up_b}  
 مخزن_گیت : rainbow 
 توکن : {token}  
