@@ -301,7 +301,7 @@ async def welcome(client, message: Message):
             return
 
 
-__MODULE__ = "ربات"
+__MODULE__ = "محمد"
 __HELP__ = f"""
 <b>✦ c به معنای پخش کانال است.</b>
 
