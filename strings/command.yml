@@ -4,7 +4,7 @@ PING_COMMAND : ["ping", "پینگ"]
 START_COMMAND : ["start", "شروع"]
 HELP_COMMAND : ["help", "راهنما"]
 SETTINGS_COMMAND : ["settings", "setting", "پنل"]
-RELOAD_COMMAND : ["admincache", "reload", "پیکربندی"]
+RELOAD_COMMAND : ["admincache", "reload", "پیکر"]
 GSTATS_COMMAND : ["gstats", "آمار کلی"]
 STATS_COMMAND : ["stats", "آمار"]
 LANGUAGE_COMMAND : ["lang", "language", "langs", "زبان"]
@@ -81,7 +81,7 @@ GETVAR_COMMAND : ["get_var", "دریافت متغیر"]
 DELVAR_COMMAND : ["del_var", "حذف متغیر"]
 SETVAR_COMMAND : ["set_var", "تنظیم متغیر"]
 USAGE_COMMAND : ["usage", "استفاده"]
-VARS_COMMAND : ["vars", "config", "متغیرها", "پیکربندی"]
+VARS_COMMAND : ["vars", "config", "متغیرها", "پیکر"]
 
 
 
