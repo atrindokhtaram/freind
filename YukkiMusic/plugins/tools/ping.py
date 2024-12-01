@@ -11,7 +11,7 @@ from YukkiMusic.utils.decorators.language import language
 from YukkiMusic.utils.inline import support_group_markup
 
 
-@app.on_message(filters.command(["ping", "alive","ربات","پینگ"] , prefixes=["", "/"]) & ~BANNED_USERS)
+@app.on_message(filters.command(["ping", "alive","پینگ"] , prefixes=["", "/"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
     response = await message.reply_photo(
