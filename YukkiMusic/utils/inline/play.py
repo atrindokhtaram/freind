@@ -41,10 +41,13 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"),
+            
+        ],
+        [
             InlineKeyboardButton(text="⎌ بعدی", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⎋ اتمام", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close")],
+           [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
     ]
     return buttons
 
@@ -57,12 +60,14 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-           InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"), 
+        ],
+        [
             InlineKeyboardButton(text="⎌ بعدی", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⎋ اتمام", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close")],
+           [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
     ]
     return buttons
 
@@ -98,11 +103,13 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"),
+            
+        ],
+        [
             InlineKeyboardButton(text="⎌ بعدی", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⎋ اتمام", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+           [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
         ],
     ]
     return buttons
@@ -110,14 +117,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
 def telegram_markup(_, chat_id):
     buttons = [
-        [
+          [
             InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"),
+            
+        ],
+        [
             InlineKeyboardButton(text="⎌ بعدی", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⎋ اتمام", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+           [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
         ],
     ]
     return buttons
@@ -227,12 +236,15 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
 
 def queue_markup(_, videoid, chat_id):
     buttons = [
-        [
+         [
             InlineKeyboardButton(text="▷ادامه", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="■ توقف", callback_data=f"ADMIN Pause|{chat_id}"),
+            
+        ],
+        [
             InlineKeyboardButton(text="⎌ بعدی", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="⎋ اتمام", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=" بازگشت ↷ ", callback_data="close")],
+           [InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
     ]
     return buttons
